@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger House</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu container">
+
+            <img class="logo-1" src="images/logo05.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#Producto">Productos</a></li>
+                        <li><a href="#servicios">Servicios</a></li>                        
+                    </ul>
+                </div>
+                <img class="logo-2" src="images/logo05.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/share/1CQxPDZWYd/">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/burger_house_0?igsh=NnlwcnNibjRxcWp0">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Bacon Cheeseburger</h1>
+                                <p>Pan, Tocino(Bacon), Queso, Carne, Tomate, Lechuga
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Sándwich de Jamón y Queso</h1>
+                                <p>Pan tipo baguette, jamon,
+                                        Queso, Lechuga, Tomate.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa Clasica</h1>
+                                <p>Pan esponjoso, Queso,
+                                        Carne, Lechuga, Tomate.
+                                </p>
+                                <div class="botones">
+                                    <a href="#" class="btn-1">comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <main class="products" id="Producto">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesa</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa Clasica</h4>
+                                    <p>Pan esponjoso, Queso,
+                                        Carne, Lechuga, Tomate.</p>
+                                    <span class="price">$25.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sándwich de Jamón y Queso</h4>
+                                    <p>Pan tipo baguette, jamon,
+                                        Queso, Lechuga, Tomate.
+                                    </p>
+                                    <span class="price">$20.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Po' boy</h4>
+                                    <p>Pan casero, Mariscos fritos o carnes, 
+                                        Lechuga, Tomate. </p>
+                                    <span class="price">$15.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food01.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Benedictina</h4>
+                                    <p>huevo frito, tocino, queso cheddar,
+                                         tomate, lechuga, salsa lucy benedict.</p>
+                                    <span class="price">$34.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food02.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa hawaiana</h4>
+                                    <p>carne, Queso suizo, piña y salsa teriyaki.</p>
+                                    <span class="price">$22.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img class="imag" src="images/food03.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Bacon Cheeseburger</h4>
+                                    <p>Pan, Tocino(Bacon), Queso, Carne, Tomate, Lechuga.</p>
+                                    <span class="price">$50.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito</h4>
+                                    <p>carne molida, lechuga, tomate picado, 
+                                        crema agria y queso rallado.</p>
+                                    <span class="price">$29.00</span>
+                                    <div class="botones">
+                                        <a href="#servicos" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food5.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>steak burrito</h4>
+                                    <p>carne, frijoles, arroz, queso, verduras, y salsas. </p>
+                                    <span class="price">$29.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food6.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Burrito Surf</h4>
+                                    <p>Carne y Camarones, Arroz mexicano,
+                                        Queso, Frijoles negros, Lechuga</p>
+                                    <span class="price">$37.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Ensalada de Pollo Frito Crujiente</h4>
+                                    <p>Pollo, lechuga, vegetales, aguacate, queso</p>
+                                    <span class="price">$80.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Brochetas de Carne</h4>
+                                    <p>carne, pimientos, cebolla y hojas verdes.</p>
+                                    <span class="price">$32.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza de Pepperoni</h4>
+                                    <p>Salsa de tomate, Queso mozzarella y Rodajas de pepperoni.</p>
+                                    <span class="price">$39.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Bebidas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food04.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Coca Cola 500ml</h4>
+                                    <p>Siempre refrescante.</p>
+                                    <span class="price">$3.50</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food05.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Inka Kola 500ml</h4>
+                                    <p>El sabor de Perú.</p>
+                                    <span class="price">$3.50</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food06.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sprite 500ml</h4>
+                                    <p>Pura frescura.</p>
+                                    <span class="price">$3.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food07.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pepsi 600ml</h4>
+                                    <p>El sabor de la nueva generación.</p>
+                                    <span class="price">$3.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food08.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Corona</h4>
+                                    <p>La cerveza más fina, para momentos más finos.</p>
+                                    <span class="price">$8.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food09.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Heineken</h4>
+                                    <p>Descubre el sabor premium que te conecta con el mundo.</p>
+                                    <span class="price">$7.50</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food10.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pilsen</h4>
+                                    <p>La amistad tiene un sabor.</p>
+                                    <span class="price">$8.00</span>
+                                    <div class="botones">
+                                        <a href="#" class="btn-5">comprar</a>                                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="images/info.png" alt="">
+        </div>
+
+        <div class="info-txt">
+            <h2>Welcome to Burger House</h2>
+            <p>
+                El lugar donde se crean las mejores hamburguesas del Perú,
+                nuestra carne es un house blend de alta calidad con ingredientes frescos y recetas originales.
+
+                Nuestras pasión, una buena burger que hará que tus problemas se vayan, porque no necesitamos nada más
+                para ser felices.
+
+
+
+                ⚠️Warning! si te quedas más de 5 minutos en esta web ¡no podrás resistirte!
+            </p>
+            <a href="#Producto" class="btn-2">Quiero Pedir</a>
+            
+        </div>
+
+    </section>
+
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>
+                        av.doloremque ullam
+                    </p>
+                    <p>
+                        veniet laudantium
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>
+                        Lunes a Viernes : 9 am - 10 pm
+                    </p>
+                    <p>
+                        Sabados y Domingos : 11 am - 9 pm
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Telefono</h4>
+                    <p>
+                        987654321
+                    </p>
+                    <p>
+                        912345678
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/share/1CQxPDZWYd/">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/burger_house_0?igsh=NnlwcnNibjRxcWp0">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="servicios" class="contact">
+        <div class="container">
+            <h2>Haz Tu Pedido</h2>
+            <p>Contáctanos para disfrutar de nuestras deliciosas hamburguesas.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="pedido">Tu Pedido:</label>
+                    <textarea id="pedido" name="pedido" rows="5" placeholder="Ej:Hamburguesa Clasica, Sándwich de Jamón y Queso..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Pedido</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <section>
+
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122471.50978570707!2d-71.59797713221971!3d-16.412903361483792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0xa3c4a612b9942036!2sArequipa!5e0!3m2!1ses-419!2spe!4v1751001400961!5m2!1ses-419!2spe"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <footer class="footer container">
+
+        <img  class="logo-3" src="images/logo05.png" alt="">
+        <div class="links">
+            <h4>Sobre Nosotros</h4>
+            <ul>
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Prensa</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Servicios</h4>
+            <ul>
+                <li><a href="#">Consultoria</a></li>
+                <li><a href="#">Soporte Tecnico</a></li>
+                <li><a href="#">Soporte Tecnico</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Recursos</h4>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Casos de Exito</a></li>
+                <li><a href="#">Documentacion</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Nuestras Redes</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/share/1CQxPDZWYd/">
+                    <div class="social">
+                        <img src="images/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="images/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/burger_house_0?igsh=NnlwcnNibjRxcWp0">
+                    <div class="social">
+                        <img src="images/s3.svg" alt=""> 
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
